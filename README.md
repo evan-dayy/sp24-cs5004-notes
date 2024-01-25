@@ -21,7 +21,7 @@ class Notes {
 }
 ```
 
-#### Hello everyone, welcome to the 04's memo and notes. The purpose of this repo is to record the common questions and provide a space for people who want to get back to these questions in a later time. The repo will be updated in a regular manner.
+Hello everyone, welcome to the 04's memo and notes. The purpose of this repo is to record the common questions and provide a space for people who want to get back to these questions in a later time. The repo will be updated in a regular manner.
 
 # Save it to your own space
 
@@ -35,8 +35,8 @@ class Notes {
 </div>
 
 - Follow the instructions showed in the previous step, then you are good to go!!
-- Everytime I update the file, you will see it here;
+- Everytime I update the file, you will see it here, by clicking `Sync fork`, you will get all the updates of docs;
 
 <div align="center">
-  <img src = 'resources/r1.png'>
+  <img src = 'resources/r1.jpg'>
 </div>
