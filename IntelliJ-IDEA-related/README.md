@@ -21,6 +21,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
+    <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
   </ol>
 </details>
 
@@ -104,3 +105,11 @@
 <div align="center">
   <img src="resources/r13.jpg" alt="image" width="" height="550">
 </div>
+
+- You can also save the project setting when you use create the project using Maven Setting and then later on change it structure (like move the `test` directory outside and then save the template);)
+
+## Short Cut To Make Life Easy
+
+#### _I will keep updating this session while exploring it_
+
+- Generate `Getter`, `Setter`, `equals & hashcode`, `constructor` methods: `Command+N` for Mac & `Alt+Insert` for windows (sometimes you also need to `Alt+Fn+Insert`)
