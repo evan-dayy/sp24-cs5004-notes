@@ -16,7 +16,7 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="resources/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">IntellJ IDEA Setting & Structure</h3>
+  <h3 align="center">IntelliJ IDEA Setting & Structure</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
