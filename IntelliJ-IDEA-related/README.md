@@ -30,6 +30,8 @@
 
 ## Set Up File Structure Template
 
+Purpose of this section is to set up the project template so you don't need to move directory somewhere every time;
+
 #### _let's first create a structure similiar to our assignment template, which is project contains `src` and `test`, then you can create your own or preference :)_
 
 - to make it simple, let's first create a folder anywhere you like, I prefer Desktop, I set the folder name as `assignment_template`;
@@ -85,7 +87,7 @@
   <img src="resources/r9.jpg" alt="image">
 </div>
 
-- Give a name to your current and add some description to remind you, then click `OK`;
+- Give a name to your current template and add some description to remind you, then click `OK`;
 
 <div align="center">
   <img src="resources/r10.jpg" alt="image">
@@ -116,3 +118,13 @@
 #### _I will keep updating this session while exploring it_
 
 - Generate `Getter`, `Setter`, `equals & hashcode`, `constructor` methods: `Command+N` for Mac & `Alt+Insert` for windows (sometimes you also need to `Alt+Fn+Insert`)
+
+<div align="center">
+  <img src="resources/r14.png" alt="image">
+</div>
+
+- Quick Search on class method and attributes `shift + shift` [tap shift double time]
+
+<div align="center">
+  <img src="resources/r15.png" alt="image">
+</div>
