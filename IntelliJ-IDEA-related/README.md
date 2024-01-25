@@ -103,13 +103,13 @@
   <img src="resources/r12.jpg" alt="image">
 </div>
 
-- Let's Test it, add some code it it! It works!
+- Let's Test it, add some code in it! It works!
 
 <div align="center">
   <img src="resources/r13.jpg" alt="image">
 </div>
 
-- You can also save the project setting when you use create the project using Maven Setting and then later on change it structure (like move the `test` directory outside and then save the template);)
+- You can also save the project setting when you create the project using Maven Setting and then later on change it structure (ex. move the `test` directory outside and then save the template);)
 
 ## Short Cut To Make Life Easy
 
