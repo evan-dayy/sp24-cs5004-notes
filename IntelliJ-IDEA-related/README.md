@@ -33,77 +33,77 @@
 - Open IntellJ IDEA, select `Open`
 
 <div align="center">
-  <img src="resources/r1.jpg" alt="image" width="" height="400">
+  <img src="resources/r1.jpg" alt="image" >
 </div>
 
 - Select the folder you have just created, then click on trust project, you will enter the IntellJ UI;
 
 <div align="center">
-  <img src="resources/r2.jpg" alt="image" width="" height="400">
+  <img src="resources/r2.jpg" alt="image">
 </div>
 
 - Right Click on `assignment_template` [a.k.a. the root folder], select `New` -> `Directory`, give name `src`, do the same thing for `test` folder, the following pic show the current status if you successfully reach to this step;
 
 <div align="center">
-  <img src="resources/r3.jpg" alt="image" width="" height="250">
+  <img src="resources/r3.jpg" alt="image">
 </div>
 
 - Go to `Project Structure` located on `File` tab, set up your JDK, you can choose JDK-21, JDK-18 or any other to compile your files. In my case I will choose OpenJDK-20 since that is my regular setting.
 
 <div align="center">
-  <img src="resources/r4.jpg" alt="image" width="" height="250">
+  <img src="resources/r4.jpg" alt="image">
 </div>
 
 <div align="center">
-  <img src="resources/r5.jpg" alt="image" width="" height="350">
+  <img src="resources/r5.jpg" alt="image">
 </div>
 
 - **This is an important step**. Go to Modules, first single click on `src`, you will notice that `Mark as: ....` row is lighted up, then select `Source`; This step mark you `src` as your source folder;
 
 <div align="center">
-  <img src="resources/r6.jpg" alt="image" width="" height="400">
+  <img src="resources/r6.jpg" alt="image">
 </div>
 
 - Similarly, mark `test` as `Test` by singlely clicking on `test` then click `Test` on the `Mark as: ...` row, the result should be looks like the following pic; **Important Step!!!** Save the setting by click on `Apply` then `OK`;
 
 <div align="center">
-  <img src="resources/r7.jpg" alt="image" width="" height="400">
+  <img src="resources/r7.jpg" alt="image">
 </div>
 
 - After the previus step, you will notice the `test` folder turns green!
 
 <div align="center">
-  <img src="resources/r8.jpg" alt="image" width="" height="350">
+  <img src="resources/r8.jpg" alt="image">
 </div>
 
 - Go to the `File` -> `New Project Setup` -> `Save Project as Template...`;
 
 <div align="center">
-  <img src="resources/r9.jpg" alt="image" width="" height="400">
+  <img src="resources/r9.jpg" alt="image">
 </div>
 
 - Give a name to your current and add some description to remind you, then click `OK`;
 
 <div align="center">
-  <img src="resources/r10.jpg" alt="image" width="" height="400">
+  <img src="resources/r10.jpg" alt="image">
 </div>
 
 - To use your template, close your IntellJ IDEA and reopn it, select `New Project`; In this case, I give a name `assignmentX`, which is a completed new project; you will notice on the left cornor, you can select your template!! then `Create`!
 
 <div align="center">
-  <img src="resources/r11.jpg" alt="image" width="" height="500">
+  <img src="resources/r11.jpg" alt="image">
 </div>
 
 - We make it!!
 
 <div align="center">
-  <img src="resources/r12.jpg" alt="image" width="" height="400">
+  <img src="resources/r12.jpg" alt="image">
 </div>
 
 - Let's Test it, add some code it it! It works!
 
 <div align="center">
-  <img src="resources/r13.jpg" alt="image" width="" height="550">
+  <img src="resources/r13.jpg" alt="image">
 </div>
 
 - You can also save the project setting when you use create the project using Maven Setting and then later on change it structure (like move the `test` directory outside and then save the template);)
