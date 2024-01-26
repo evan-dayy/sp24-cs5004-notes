@@ -178,7 +178,7 @@ x = 10
 print(x)
 ```
 
-However, you cannot directly do this in Java since everything in Java is a Object (class), you should define a class then to print it like following:
+However, you cannot directly do this in Java since everything in Java is an Object (class), you should define everything in a class then to print it like following:
 
 ```java
 class Printer {
@@ -199,8 +199,8 @@ $ jshell
 
 - if it is installed, you would see following (most of jshell come with SDK so it should be installed):
 
-```
-❯ jshell
+```sh
+$ jshell
 
 |  Welcome to JShell -- Version 16.0.1
 
