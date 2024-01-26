@@ -26,7 +26,7 @@
     <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
     <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
     <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li>
-    <li><a href="#jshell:-java-in-terminal-for-quick-test">jshell: Java in Terminal for Quick Test</a></li>
+    <li><a href="#jshell-java-in-terminal-for-quick-test">jshell: Java in Terminal for Quick Test</a></li>
   </ol>
 </details>
 
