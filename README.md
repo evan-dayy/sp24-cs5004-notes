@@ -45,7 +45,7 @@ There is a `Table of Contents` in every document, click on it to quickly direct 
 
 ## Save it to your own space
 
-For people who wish to see the notes in your own Github repositary, here I provide instructions on how to `fork` it; One of the benefit is that you see when I update the file and then you can `sync` by clicking one botton;
+For people who wish to see the notes in your own Github repositary, here I provide instructions on how to `fork` it; One of the benefit is that you will see when I update the file and then you can `sync` by clicking one botton;
 
 - You should have your own Github account;
 - Click the `Fork` botton on the right cornor near `Code`
@@ -63,7 +63,7 @@ For people who wish to see the notes in your own Github repositary, here I provi
 
 ## Post an issue
 
-If you want to point out there exist a mistake in the document and you believe it may need more explanation, post an `issue` so that I can see it and resolve it! Follow these steps to submit an `issue`:
+If you want to point out there exist a mistake in the document or you believe it may need more explanation, post an `issue` so that I can see it and resolve it! You can also use it as a private discussion, you can ask any question related to these notes through it! Follow these steps to submit an `issue`: 
 
 - Go to `issue` mentioned below:
 
