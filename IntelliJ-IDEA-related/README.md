@@ -34,7 +34,7 @@
 
 Purpose of this section is to set up the project template so you don't need to move directory somewhere every time;
 
-#### _let's first create a structure similiar to our assignment template, which is project contains `src` and `test`, then you can create your own or preference :)_
+#### _let's first create a structure similiar to our assignment template, which is a project contains `src` and `test`, then you can create your own or preference :)_
 
 - to make it simple, let's first create a folder anywhere you like, I prefer Desktop, I set the folder name as `assignment_template`;
 - Open IntellJ IDEA, select `Open`
