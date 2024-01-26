@@ -37,6 +37,12 @@ Hello everyone!! welcome to the 04's memo and notes. The purpose of this repo is
 
 Please refer to course material and lab notes to get a full view of this course!
 
+There is a `Table of Contents` in every document, click on it to quickly direct yourself to the target!
+
+<div align="center">
+  <img src = 'resources/r6.png'>
+</div>
+
 ## Save it to your own space
 
 For people who wish to see the notes in your own Github repositary, here I provide instructions on how to `fork` it; One of the benefit is that you see when I update the file and then you can `sync` by clicking one botton;
