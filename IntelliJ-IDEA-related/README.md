@@ -230,7 +230,7 @@ jshell>
 ```
 
 - all the dependecies will be within the `<dependencies> .... </dependencies>` tag;
-- Remember to reload all maven projects to apply these configuration!
+- Remember to reload all maven projects to apply these configurations!
 
 <div align="center">
   <img src="resources/r18.png" alt="image">
