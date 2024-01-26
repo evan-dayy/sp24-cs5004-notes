@@ -147,12 +147,27 @@ People may encounter issues such as auto-grader failure without any output and g
 Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code;
 
 ```
-Meanwile, please exclude the hidden files when you submit it (such as .DS_Store), only upload and submit the files with .java extension;
+Meanwile, please exclude the hidden files when you submit it (such as .DS_Store);
+Only upload and submit the files with .java extension;
 ```
 **There are other factors may cause auto-grader failure**
 
 - Wrong compression extension (.7z or other compression format instead of .zip);
-- Wrong file structure. Make sure yout submission follows the file strcture `src/package_name/...` and `test/testFile.java`; 
+- Wrong file structure. Make sure your submission follows the file strcture `src/package_name/...` and `test/testFile.java`;
+- Structure format is listed here, **ONLY** select `src` and `test` at the same time and right click to zip them;
+  
+```text
+ - src
+    |
+    |__ Package
+            |___ B.java
+            |___ A.java
+ - test
+    |__ testB.java
+    |__ testA.java          
+
+```
+- **DO NOT** put `src` amd `test` in an addtional folder and zip that folder, it will create an another level for auto-grader and lead to failure;
 
 ## jshell: Java in Terminal for Quick Test
 
