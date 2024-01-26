@@ -27,6 +27,7 @@
     <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
     <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li>
     <li><a href="#jshell-java-in-terminal-for-quick-test">jshell: Java in Terminal for Quick Test</a></li>
+    <li><a href="#why-we-need-pomxml">Why we need pom.xml</a></li>
   </ol>
 </details>
 
@@ -191,4 +192,46 @@ jshell>
 
 <div align="center">
   <img src="resources/r16.png" alt="image">
+</div>
+
+## Why we need `pom.xml`
+
+`pom.xml` under Maven's project is a configuration file you set up a project. Remeber how you add `test cases` to the project? You are doing `Generate` -> `Test` -> `Generate Test Cases`; It is part of the IntelliJ's magic. However, a original way to do this is to mannually add `JUnit Dependency` to the `pom.xml`; It is good to know you can directly add dependecy to your project. Here I provide steps to add a JUnit Dependency mannually:
+
+- Google `maven junit4 dependency`;
+
+<div align="center">
+  <img src="resources/r17.png" alt="image">
+</div>
+
+- Copy the code under Maven's Project, in this case it is the following code;
+
+```xml
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+```
+
+- Go to `pom.xml`; Insert at the bottle:
+
+```xml
+<dependencies>
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+  </dependency>
+</dependencies>
+```
+
+- all the dependecies will be within the `<dependencies> .... </dependencies>` tag;
+- Remember to reload all maven projects to apply these configuration!
+
+<div align="center">
+  <img src="resources/r18.png" alt="image">
 </div>
