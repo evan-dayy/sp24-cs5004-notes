@@ -134,7 +134,7 @@ Purpose of this section is to set up the project template so you don't need to m
 
 ## GradeScope Autograder Not Working Issue
 
-People may encounter issues such as cannot see auto-grader output and get a 0 points. The issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
+People may encounter issues such as auto-grader failure without any output and get a 0 points. Most of time, the issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
 
 - Type Checking. Autograder may have a test case `mutiply(double val)`, however the submitted state it as `mutiply(int val)`;
 - Wrong name of method or missing of a method. Autograder will directly call the function, so mis-typing function name may cause `symbols cannot found`;
@@ -149,6 +149,10 @@ Please double check your function signature, return type, output type, and also 
 ```
 Meanwile, please exclude the hidden files when you submit it (such as .DS_Store), only upload and submit the files with .java extension;
 ```
+**There are other factors may cause auto-grader failure**
+
+- Wrong compression extension (.7z or other compression format instead of .zip);
+- Wrong file structure. Make sure yout submission follows the file strcture `src/package_name/...` and `test/testFile.java`; 
 
 ## jshell: Java in Terminal for Quick Test
 
