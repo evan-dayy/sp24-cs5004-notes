@@ -2,6 +2,8 @@
 
 <a name="readme-top"></a>
 
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -9,6 +11,15 @@
     <img src="resources/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">CS5004 Notes & Memo</h3>
+</div>
+
+<div align="center">
+
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+![Static Badge](https://img.shields.io/badge/made_by-evan_day-blue)
+![GitHub forks](https://img.shields.io/github/forks/evan-dayy/cs5004-notes-setting?style=flat-square&color=css)
+
+
 </div>
 
 <details>
