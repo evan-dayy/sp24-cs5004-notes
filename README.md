@@ -32,10 +32,10 @@ class Notes {
 
 Hello everyone!! welcome to the 04's memo and notes. The purpose of this repo is to record the common questions and provide a space for people who want to get back to these **Easy-to-Forget** or **Hard-to-Understand** questions in a later time. The repo will be updated in a regular manner.
 
-- This is not a repo that cover all the course material or Java Basics;
+- This is not a repo that covers all the course material or Java Basics;
 - It may covers some concepts that are out-of-scope but good-to-know.
 
-Please refer to course material and lab notes to get a full view of this course!
+Please refer to course materials and lab notes to get a full view of this course!
 
 There is a `Table of Contents` in every document, click on it to quickly direct yourself to the target!
 
@@ -55,7 +55,7 @@ For people who wish to see the notes in your own Github repositary, here I provi
 </div>
 
 - Follow the instructions showed in the previous step, then you are good to go!!
-- Everytime I update the file, you will see some notice here suggest that `you are behind the newest verion`; By clicking `Sync fork`, you will get up-to-date docs;
+- Everytime I update the file, you will see some notices here suggest that `you are behind the newest version`; By clicking `Sync fork`, you will get up-to-date docs;
 
 <div align="center">
   <img src = 'resources/r1.jpg'>
