@@ -49,7 +49,7 @@ Please refer to course material and lab notes to get a full view of this course!
 </div>
 
 - Follow the instructions showed in the previous step, then you are good to go!!
-- Everytime I update the file, you will see it here, by clicking `Sync fork`, you will get all the updates of docs;
+- Everytime I update the file, you will see some notice here suggest that `you are behind the newest verion`; By clicking `Sync fork`, you will get up-to-date docs;
 
 <div align="center">
   <img src = 'resources/r1.jpg'>
