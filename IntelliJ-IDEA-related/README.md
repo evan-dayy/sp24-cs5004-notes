@@ -146,6 +146,10 @@ People may encounter issues such as cannot see auto-grader output and get a 0 po
 
 Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code;
 
+```
+Meanwile, please exclude the hidden files when you submit it (such as .DS_Store), only upload and submit the files with .java extension;
+```
+
 ## jshell: Java in Terminal for Quick Test
 
 In python you can start a script and start defining variables or open a terminal and start typing like following:
