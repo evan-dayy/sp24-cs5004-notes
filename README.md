@@ -39,7 +39,7 @@ Please refer to course material and lab notes to get a full view of this course!
 
 ## Save it to your own space
 
-#### For people who wish to see the notes in your own Github repositary, here I provide instructions on how to `fork` it; One of the benefit is that you see when I update the file and then you can `sync` by clicking one botton;
+For people who wish to see the notes in your own Github repositary, here I provide instructions on how to `fork` it; One of the benefit is that you see when I update the file and then you can `sync` by clicking one botton;
 
 - You should have your own Github account;
 - Click the `Fork` botton on the right cornor near `Code`
