@@ -23,13 +23,20 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <!-- <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
-    <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
-    <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li> -->
+    <li><a href="#acess-level-private-protected-private-protected-public">Access Level: private, protected-private, protected, public</a></li>
+    <li><a href="#final-key-word">final key word</a></li>
+    <li><a href="#why-we-need-getter-and-setter">Why we need getter and setter</a></li>
+    <li><a href="#equals-and-hashcode">equals and hashCode</a></li>
   </ol>
 </details>
 
-<!-- ## GradeScope Autograder Not Working Issue
+## Access Level: private, protected-private, protected, public
+
+## final key word
+
+## Why we need getter and setter
+
+## equals and hashCode
 
 People may encounter issues such as cannot see auto-grader output and get a 0 points. The issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
 
@@ -39,4 +46,4 @@ People may encounter issues such as cannot see auto-grader output and get a 0 po
 - Wrong output type. Return a `double` but expected a `int` type, it will cause `Lossy conversion problem`;
 - ...
 
-Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code; -->
+Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code;
