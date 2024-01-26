@@ -169,7 +169,7 @@ Only upload and submit the files with .java extension;
 ```
 - **DO NOT** put `src` amd `test` in an addtional folder and zip that folder, it will create an another level for auto-grader and lead to failure;
 
-## jshell: Java in Terminal for Quick Test
+## `jshell`: Java in Terminal for Quick Test
 
 In python you can start a script and start defining variables or open a terminal and start typing like following:
 
