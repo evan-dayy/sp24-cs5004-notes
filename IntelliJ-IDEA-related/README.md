@@ -26,6 +26,7 @@
     <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
     <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
     <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li>
+    <li><a href="#jshell:-java-in-terminal-for-quick-test">jshell: Java in Terminal for Quick Test</a></li>
   </ol>
 </details>
 
@@ -141,3 +142,51 @@ People may encounter issues such as cannot see auto-grader output and get a 0 po
 - ...
 
 Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code;
+
+## jshell: Java in Terminal for Quick Test
+
+In python you can start a script and start defining variables or open a terminal and start typing like following:
+
+```python
+x = 10
+print(x)
+```
+
+However, you cannot directly do this in Java since everything in Java is a Object (class), you should define a class then to print it like following:
+
+```java
+class Printer {
+  public static void main(String[] args) {
+    int x = 10;
+    System.out.println(x);
+  }
+}
+```
+
+It is complex and time-consuming if you just want to test some easy ideas, like what is `Integer.MAX_VALUE + 1`. Here, `jshell` is the best place to test your easy idea without declaring `class`, it is similar to type `python` or `python3` in terminal and test some easy code;
+
+- Open terminal type the following:
+
+```sh
+$ jshell
+```
+
+- if it is installed, you would see following (most of jshell come with SDK so it should be installed):
+
+```
+❯ jshell
+
+|  Welcome to JShell -- Version 16.0.1
+
+|  For an introduction type: /help intro
+
+
+jshell>
+
+```
+
+- Here, you can define a variable just like `python` does without declaring a class! It is good way to test your simple idea quickly!
+
+<div align="center">
+  <img src="resources/r16.png" alt="image">
+</div>
