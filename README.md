@@ -6,7 +6,7 @@
   <a>
     <img src="resources/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">CS5004 Notes & Memo</h3>
+  <h3 align="center">CS-5004: Object-Oriented Design - Notes & Memo</h3>
 </div>
 
 <div align="center">
