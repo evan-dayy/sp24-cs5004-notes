@@ -1,8 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -22,7 +18,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/evan-dayy/cs5004-notes-setting)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/evan-dayy/cs5004-notes-setting)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/evan-dayy/cs5004-notes-setting)
-
 
 </div>
 
@@ -78,7 +73,7 @@ For people who wish to see the notes in your own Github repositary, here I provi
 
 ## Post an issue
 
-If you want to point out there exist a mistake in the document or you believe it may need more explanation, post an `issue` so that I can see it and resolve it! You can also use it as a private discussion, you can ask any question related to these notes through it! Follow these steps to submit an `issue`: 
+If you want to point out there exist a mistake in the document or you believe it may need more explanation, post an `issue` so that I can see it and resolve it! You can also use it as a private discussion, you can ask any question related to these notes through it! Follow these steps to submit an `issue`:
 
 - Go to `issue` mentioned below:
 

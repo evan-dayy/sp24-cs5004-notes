@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -150,12 +140,13 @@ Please double check your function signature, return type, output type, and also 
 Meanwile, please exclude the hidden files when you submit it (such as .DS_Store);
 Only upload and submit the files with .java extension;
 ```
+
 **There are other factors may cause auto-grader failure**
 
 - Wrong compression extension (.7z or other compression format instead of .zip);
 - Wrong file structure. Make sure your submission follows the file strcture `src/package_name/...` and `test/testFile.java`;
 - Structure format is listed here, **ONLY** select `src` and `test` at the same time and right click to zip them;
-  
+
 ```text
  - src
     |
@@ -164,9 +155,10 @@ Only upload and submit the files with .java extension;
             |___ A.java
  - test
     |__ testB.java
-    |__ testA.java          
+    |__ testA.java
 
 ```
+
 - **DO NOT** put `src` amd `test` in an addtional folder and zip that folder, it will create an another level for auto-grader and lead to failure;
 
 ## `jshell`: Java in Terminal for Quick Test
