@@ -66,7 +66,7 @@ For people who wish to see the notes in your own Github repositary, here I provi
 </div>
 
 - Follow the instructions showed in the previous step, then you are good to go!!
-- Everytime I update the file, you will see some notices here suggest that `you are behind the newest version`; By clicking `Sync fork`, you will get up-to-date docs;
+- Everytime I update the file, you will see some notices here suggest that `This branch is XXX commits behind evan-dayy/sp24-cs5004-notes-and-memo:main.`; By clicking `Sync fork`, you will get up-to-date docs;
 
 <div align="center">
   <img src = 'resources/r1.jpg'>
