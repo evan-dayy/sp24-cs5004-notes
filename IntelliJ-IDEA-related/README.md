@@ -20,7 +20,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
