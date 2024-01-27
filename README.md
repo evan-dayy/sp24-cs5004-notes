@@ -26,7 +26,7 @@
 
 </div>
 
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-notes">About</a></li>
