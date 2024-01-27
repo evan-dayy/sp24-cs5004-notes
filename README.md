@@ -14,9 +14,10 @@
 </div>
 
 <div align="center">
-
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+  
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/evan-dayy/cs5004-notes-setting/pulls)
 ![Static Badge](https://img.shields.io/badge/made_by-evan_day-blue)
+
 ![GitHub forks](https://img.shields.io/github/forks/evan-dayy/cs5004-notes-setting?style=flat-square&color=css)
 ![GitHub issues](https://img.shields.io/github/issues/evan-dayy/cs5004-notes-setting)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/evan-dayy/cs5004-notes-setting)
