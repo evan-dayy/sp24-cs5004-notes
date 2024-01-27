@@ -17,6 +17,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/evan-dayy/cs5004-notes-setting?style=flat-square&color=css)
 ![GitHub issues](https://img.shields.io/github/issues/evan-dayy/cs5004-notes-setting)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/evan-dayy/cs5004-notes-setting)
+![GitHub number of milestones](https://img.shields.io/github/milestones/open/evan-dayy/sp24-cs5004-notes-and-memo?color=css)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/evan-dayy/cs5004-notes-setting)
 
 </div>
