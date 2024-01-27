@@ -30,7 +30,7 @@
   <summary>Table of Contents</summary>
   <ul>
     <li><a href="#about-the-notes">About</a></li>
-    <li><a href="#save-it-to-your-own-space">Save it to your own Github</a></li>
+    <li><a href="#save-it-to-your-own-space">Save it to your own Github Space</a></li>
     <li><a href="#post-an-issue">Submit an issue</a></li>
   </ul>
 </details>
