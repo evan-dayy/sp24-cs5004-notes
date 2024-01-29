@@ -14,8 +14,8 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
-    <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
     <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li>
+    <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
     <li><a href="#jshell-java-in-terminal-for-quick-test">jshell: Java in Terminal for Quick Test</a></li>
     <li><a href="#why-we-need-pomxml">Why we need pom.xml</a></li>
   </ol>
@@ -106,22 +106,6 @@ Purpose of this section is to set up the project template so you don't need to m
 
 - You can also save the project setting when you create the project using Maven Setting and then later on change it structure (ex. move the `test` directory outside and then save the template);)
 
-## Short Cut To Make Life Easy
-
-#### _I will keep updating this session while exploring it_
-
-- Generate `Getter`, `Setter`, `equals & hashcode`, `constructor` methods: `Command+N` for Mac & `Alt+Insert` for windows (sometimes you also need to `Alt+Fn+Insert`)
-
-<div align="center">
-  <img src="resources/r14.png" alt="image">
-</div>
-
-- Quick Search on class method and attributes `shift + shift` [tap shift double time]
-
-<div align="center">
-  <img src="resources/r15.png" alt="image">
-</div>
-
 ## GradeScope Autograder Not Working Issue
 
 People may encounter issues such as auto-grader failure without any output and get a 0 points. Most of time, the issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
@@ -160,6 +144,25 @@ Only upload and submit the files with .java extension;
 ```
 
 - **DO NOT** put `src` amd `test` in an addtional folder and zip that folder, it will create an another level for auto-grader and lead to failure;
+
+
+
+## Short Cut To Make Life Easy
+
+#### _I will keep updating this session while exploring it_
+
+- Generate `Getter`, `Setter`, `equals & hashcode`, `constructor` methods: `Command+N` for Mac & `Alt+Insert` for windows (sometimes you also need to `Alt+Fn+Insert`)
+
+<div align="center">
+  <img src="resources/r14.png" alt="image">
+</div>
+
+- Quick Search on class method and attributes `shift + shift` [tap shift double time]
+
+<div align="center">
+  <img src="resources/r15.png" alt="image">
+</div>
+
 
 ## `jshell`: Java in Terminal for Quick Test
 
