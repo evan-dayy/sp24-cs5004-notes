@@ -25,7 +25,8 @@
   <ol>
     <li><a href="#acess-level-private-protected-private-protected-public">Access Level: private, protected-private, protected, public</a></li>
     <li><a href="#final-key-word">final key word</a></li>
-    <li><a href="#equals-and-hashcode">equals and hashCode</a></li>
+    <li><a href="#equals-and">.equals and ==</a></li>
+    <li><a href="#equals-and-hashcode">.equals and hashCode</a></li>
   </ol>
 </details>
 
@@ -49,4 +50,17 @@ Same as what it suggests. `final` key word can apply to a class, a method, or a 
 
 - if it apply to a field, the field cannot be reassigned a value once initialized, and you must initialize it when you declare it;
 
-## equals and hashCode
+## `.equals` and `==`
+
+It is very important to understand the difference between the equality and identity of objects.
+
+- Identity defines two objects as being ‘the same’ if they really are referring to the same, exact object.
+- Equality, on the other hand, defines two objects as being ‘the same’ if they contain the same value(s).
+
+`==` determines identity while `.equals` is for equality.
+
+## `.equals` and `hashCode`
+
+The idea `hashing` is the transformation of any object into a number. The transforming function is called a `hash function`, and the `int` return value is the hash value. In Java, `hash functions` are defined in the object’s class as a method called `hashCode()` with return value `int`;
+
+Keep it really careful when you try to Override the `equals` method, since a old version of `hashcode` may cause `inconsistency` in hash table;
