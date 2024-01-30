@@ -10,23 +10,47 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
-    <!-- <li><a href="#set-up-file-structure-template">Set Up File Structure Template</a></li>
-    <li><a href="#short-cut-to-make-life-easy">Short Cut to Make Life Easy</a></li>
-    <li><a href="#gradescope-autograder-not-working-issue">GradeScope Autograder Not Working Issue</a></li> -->
+    <li><a href="#acess-level-private-protected-private-protected-public">Access Level: private, protected-private, protected, public</a></li>
+    <li><a href="#final-key-word">final key word</a></li>
+    <li><a href="#equals-and">.equals and ==</a></li>
+    <li><a href="#equals-and-hashcode">.equals and hashCode</a></li>
   </ol>
 </details>
 
-<!-- ## GradeScope Autograder Not Working Issue
+## Access Level: private, protected-private, protected, public
 
-People may encounter issues such as cannot see auto-grader output and get a 0 points. The issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
+Access level defined **who** could access a class field or a method, in some scenario, you would like to protect data that cannot be changed from others. There are 4 access level in java, `private`, `public`, `proctected`, `protected-private`;
 
-- Type Checking. Autograder may have a test case `mutiply(double val)`, however the submitted state it as `mutiply(int val)`;
-- Wrong name of method. Autograder will directly call the function, so mis-typing function name may cause `symbols cannot found`;
-- Forgot the `package` keyword when you declare a class inside a package;
-- Wrong output type. Return a `double` but expected a `int` type, it will cause `Lossy conversion problem`;
-- ...
+- `private` and `public` are the most extreme one, it stards for `no one` and `everyone` can see it; That is why we need `getter` and `setter` method for `private field` because there is no way you can access these fields unless you are inside that class;
 
-Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code; -->
+- Then we have `protected-private`, which is the `default` setting if you do not explicitly specify the access level. It also allows all the other class within the same package to access this type;
+
+- Then we have `protected`, which is almost the same as `protected-private` but it allows its subclasses outside the package have access to use this type of method;
+
+## final key word
+
+Same as what it suggests. `final` key word can apply to a class, a method, or a variable;
+
+- if it apply to a class, like `final Employee`, it suggests the class cannot be subclass;
+
+- if it apply to a method, it suggests the method cannot be over written;
+
+- if it apply to a field, the field cannot be reassigned a value once initialized, and you must initialize it when you declare it;
+
+## `.equals` and `==`
+
+It is very important to understand the difference between the equality and identity of objects.
+
+- Identity defines two objects as being ‘the same’ if they really are referring to the same, exact object.
+- Equality, on the other hand, defines two objects as being ‘the same’ if they contain the same value(s).
+
+`==` determines identity while `.equals` is for equality.
+
+## `.equals` and `hashCode`
+
+The idea `hashing` is the transformation of any object into a number. The transforming function is called a `hash function`, and the `int` return value is the hash value. In Java, `hash functions` are defined in the object’s class as a method called `hashCode()` with return value `int`;
+
+Keep it really careful when you try to Override the `equals` method, since a old version of `hashcode` may cause `inconsistency` in hash table;
