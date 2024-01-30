@@ -10,14 +10,13 @@
 </div>
 
 <div align="center">
-  
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat)](https://github.com/evan-dayy/cs5004-notes-setting/pulls)
+
 [![Static Badge](https://img.shields.io/badge/made_by-evan_day-blue?link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fevandai99%2F)](https://www.linkedin.com/in/evandai99/)
 [![GitHub forks](https://img.shields.io/github/forks/evan-dayy/sp24-cs5004-notes-and-memo?style=flat)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/evan-dayy/cs5004-notes-setting)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/evan-dayy/cs5004-notes-setting)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub number of milestones](https://img.shields.io/github/milestones/open/evan-dayy/sp24-cs5004-notes-and-memo?color=css)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/milestones)
 
+[![GitHub number of milestones](https://img.shields.io/github/milestones/open/evan-dayy/sp24-cs5004-notes-and-memo?color=css)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/milestones)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/evan-dayy/cs5004-notes-setting)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/pulls)
 [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/evan-dayy/sp24-cs5004-notes-and-memo)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/pulls?q=is%3Apr+is%3Aclosed)
 
