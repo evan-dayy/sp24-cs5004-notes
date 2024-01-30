@@ -25,7 +25,6 @@
   <ol>
     <li><a href="#acess-level-private-protected-private-protected-public">Access Level: private, protected-private, protected, public</a></li>
     <li><a href="#final-key-word">final key word</a></li>
-    <li><a href="#why-we-need-getter-and-setter">Why we need getter and setter</a></li>
     <li><a href="#equals-and-hashcode">equals and hashCode</a></li>
   </ol>
 </details>
@@ -42,16 +41,12 @@ Access level defined **who** could access a class field or a method, in some sce
 
 ## final key word
 
-## Why we need getter and setter
+Same as what it suggests. `final` key word can apply to a class, a method, or a variable;
+
+- if it apply to a class, like `final Employee`, it suggests the class cannot be subclass;
+
+- if it apply to a method, it suggests the method cannot be over written;
+
+- if it apply to a field, the field cannot be reassigned a value once initialized, and you must initialize it when you declare it;
 
 ## equals and hashCode
-
-People may encounter issues such as cannot see auto-grader output and get a 0 points. The issue is related to **Java Compile Time Error**, which is hidden from students' side. Typically, the error related to Java compile-time checking. Here I list a few of examples:
-
-- Type Checking. Autograder may have a test case `mutiply(double val)`, however the submitted state it as `mutiply(int val)`;
-- Wrong name of method. Autograder will directly call the function, so mis-typing function name may cause `symbols cannot found`;
-- Forgot the `package` keyword when you declare a class inside a package;
-- Wrong output type. Return a `double` but expected a `int` type, it will cause `Lossy conversion problem`;
-- ...
-
-Please double check your function signature, return type, output type, and also edge cases before submitting to GradeScope. Since it will not display the compile-time errors. If you cannot debug the issue, feel free to reach out to TAs to help you go through the code;
