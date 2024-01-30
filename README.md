@@ -11,7 +11,7 @@
 
 <div align="center">
   
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/evan-dayy/cs5004-notes-setting/pulls)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat)](https://github.com/evan-dayy/cs5004-notes-setting/pulls)
 [![Static Badge](https://img.shields.io/badge/made_by-evan_day-blue?link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fevandai99%2F)](https://www.linkedin.com/in/evandai99/)
 [![GitHub forks](https://img.shields.io/github/forks/evan-dayy/sp24-cs5004-notes-and-memo?style=flat)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/evan-dayy/cs5004-notes-setting)](https://github.com/evan-dayy/sp24-cs5004-notes-and-memo/issues)
