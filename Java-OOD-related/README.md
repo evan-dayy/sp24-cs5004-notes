@@ -20,7 +20,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#acess-level-private-protected-private-protected-public">Access Level: private, protected-private, protected, public</a></li>
@@ -31,6 +31,14 @@
 </details>
 
 ## Access Level: private, protected-private, protected, public
+
+Access level defined **who** could access a class field or a method, in some scenario, you would like to protect data that cannot be changed from others. There are 4 access level in java, `private`, `public`, `proctected`, `protected-private`;
+
+- `private` and `public` are the most extreme one, it stards for `no one` and `everyone` can see it; That is why we need `getter` and `setter` method for `private field` because there is no way you can access these fields unless you are inside that class;
+
+- Then we have `protected-private`, which is the `default` setting if you do not explicitly specify the access level. It also allows all the other class within the same package to access this type;
+
+- Then we have `protected`, which is almost the same as `protected-private` but it allows its subclasses outside the package have access to use this type of method;
 
 ## final key word
 
